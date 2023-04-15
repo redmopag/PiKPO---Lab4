@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a7597cf-5b36-414b-90a2-96a5eeb7b328" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/processor/DataProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/DataProcessorService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Learning/Проектирование и конструирование ПО/Лабораторные работы/ЛР4/example/pikpo4_java/dataprocessorlab",
+    "last_opened_file_path": "D:/Learning/Проектирование и конструирование ПО/Лабораторные работы/ЛР4/Project/src/main/java/Database",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -47,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learning\Проектирование и конструирование ПО\Лабораторные работы\ЛР4\Project\src\main\java\Database" />
       <recent name="D:\Learning\Проектирование и конструирование ПО\Лабораторные работы\ЛР4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
