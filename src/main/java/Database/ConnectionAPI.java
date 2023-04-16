@@ -7,8 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /*
     В данном классе реализуется API (Application Programming Interface)
@@ -55,15 +54,27 @@ public class ConnectionAPI {
             lastFileId = sourceFilesResultSet.getInt("id");
         }
         Statement statement = con.createStatement();
-        String sql = null;
+
+        Set<Object> col = dataFrame.columns();
+
         for (List<String> row : dataFrame) {
-            String name = row.get(0);
-            if(name.contains("'"))
-                name = name.replace("'", " ");
-            name = "'" + name + "'";
-            String strLastFileId = Integer.toString(lastFileId);
-            statement.execute(String.format("INSERT INTO processed_data (country, source_file) VALUES ("
-                    + name + "," + strLastFileId + ")"));
+            Iterator<String> it = row.iterator();
+            // Настройка названия страны для ввода в sqlite
+            String name = it.next();
+            name = "'" + name.replace("'", " ") + "'";
+
+            Iterator<Object> yeariter = col.iterator();
+            yeariter.next();
+
+            while(it.hasNext() && yeariter.hasNext()) {
+                String cnt = "'" + it.next() + "'";
+                cnt = (cnt == null) ? "'0.00'" : cnt;
+
+                String year = (String) yeariter.next();
+
+                statement.execute(String.format("INSERT INTO processed_data (country, yr, cnt, source_file) VALUES ("
+                        + name + "," + year + "," + cnt + "," + Integer.toString(lastFileId) + ")"));
+            }
         }
     }
 
