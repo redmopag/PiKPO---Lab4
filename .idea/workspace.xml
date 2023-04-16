@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a7597cf-5b36-414b-90a2-96a5eeb7b328" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/processor/DataProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/DataProcessorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/ConnectionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/ConnectionAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +38,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Learning/Проектирование и конструирование ПО/Лабораторные работы/ЛР4/Project/src/main/java/Database",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learning/Проектирование и конструирование ПО/Лабораторные работы/ЛР4/Project/src/main/java/Database&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Learning\Проектирование и конструирование ПО\Лабораторные работы\ЛР4\Project\src\main\java\Database" />
       <recent name="D:\Learning\Проектирование и конструирование ПО\Лабораторные работы\ЛР4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learning\Проектирование и конструирование ПО\Лабораторные работы\ЛР4\Project" />
       <recent name="D:\Учёба\Проектирование и конструирование ПО\Лабораторные работы\ЛР3\Lab3\Lab3 - PiKPO\src" />
       <recent name="D:\Учёба\Проектирование и конструирование ПО\Лабораторные работы\ЛР3\Lab3\Lab3 - PiKPO\src\main\java\processor" />
     </key>
@@ -112,5 +116,16 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Database/ConnectionAPI.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

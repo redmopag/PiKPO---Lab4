@@ -57,8 +57,13 @@ public class ConnectionAPI {
         Statement statement = con.createStatement();
         String sql = null;
         for (List<String> row : dataFrame) {
-            statement.execute(String.format("INSERT INTO processed_data (LKG, target, source_file) VALUES ('%s', '%s', '%d')",
-                    row.get(6), row.get(7), lastFileId));
+            String name = row.get(0);
+            if(name.contains("'"))
+                name = name.replace("'", " ");
+            name = "'" + name + "'";
+            String strLastFileId = Integer.toString(lastFileId);
+            statement.execute(String.format("INSERT INTO processed_data (country, source_file) VALUES ("
+                    + name + "," + strLastFileId + ")"));
         }
     }
 
