@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9a7597cf-5b36-414b-90a2-96a5eeb7b328" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/ConnectionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/ConnectionAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/MySQLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/MySQLConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/SQLiteConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/SQLiteConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/processor/DataProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/DataProcessorService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +123,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Database/ConnectionAPI.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/database/ConnectionAPI.java</url>
           <line>59</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>

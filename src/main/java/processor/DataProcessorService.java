@@ -4,8 +4,8 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import Database.ConnectionAPI;
-import Database.ConnectionFactory;
+import database.ConnectionAPI;
+import database.ConnectionFactory;
 
 import joinery.DataFrame;
 
