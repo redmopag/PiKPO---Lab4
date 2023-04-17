@@ -1,0 +1,99 @@
+table {
+	border: 1px solid rgb(105, 14, 14);
+	text-align: center;
+	background-color: rgb(213, 197, 202);
+ }
+ th {
+	border: 1px solid rgb(105, 14, 14);
+ }
+ td {
+	border: 1px solid rgb(105, 14, 14);
+	
+ }
+
+body {
+	background: #fddddd;
+}
+.flex{
+	display: flex;
+	
+}
+.column-flex{
+	flex-direction: column;
+}
+.row-flex{
+	flex-direction: row;
+}
+
+.mainblock {
+    border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: rgb(177, 142, 153);
+}
+.header-content{
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.page-title {
+
+    background-color: rgb(177, 142, 153);
+    text-transform: uppercase;
+}
+.hand {
+    width: 500px;
+    height: 200px;
+}
+
+.body {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	align-items: center;
+	border-bottom: 1px solid gray;
+	padding-top: 40px;
+}
+
+.input-text {
+	border: 1px solid rgb(105, 14, 14);
+	text-align: center;
+	font-size: 20px;
+}
+.input-finish {
+	border: 1px solid rgb(105, 14, 14);
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	font-size: 20px;
+}
+.textbox {
+	margin-left: 45%;
+	margin-right: 45%;
+	height: 70px;
+	justify-content: space-evenly;
+}
+.table {
+	width: 100%;
+	border: 2px solid rgb(105, 14, 14);
+}
+.table_caption {
+	font-size: larger;
+	text-align: center;
+    background-color: rgb(213, 197, 202); 
+	margin-right: 85%;
+}
+.developers {
+	font-size: larger;
+	border-bottom: 1px solid gray;
+	text-align: left;
+	padding-right: 90%;
+	margin-top: 50px;
+	padding-top: 10px;
+	background-color: rgb(213, 197, 202); 
+}
+.world {
+	width: 1000px;
+    height: 500px;
+	padding-top: 50px;
+}
